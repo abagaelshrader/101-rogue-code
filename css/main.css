@@ -1,0 +1,120 @@
+/***** BASE STYLES *****/
+/** top right bottom left **/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+#about {
+  height: 600px;
+}
+#about #snippets h2 h3 h4 {
+  text-transform: uppercase;
+}
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+}
+.two-thirds-width {
+  width: 800px;
+  float: left;
+}
+.third-width {
+  width: 390px;
+  float: left;
+}
+.third-width-borders {
+  height: 220px;
+  width: 390px;
+  float: left;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+}
+
+/***** HEADER *****/
+header h1 {
+  padding: 65px 0 30px 0;
+  font-weight: bold;
+  font-size: 35px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+header h1 span {
+  color: black;
+}
+nav {
+  padding: 75px 0 0 15px;
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 23px;
+  color: #77a466;
+  margin: 15px;
+}
+/***** ABOUT *****/
+#about h2 {
+  color: #77a466;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+#about p {
+  color: black;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+/***** SNIPPETS *****/
+#snippets .full-width {
+  height: 220px;
+  border-top: 2px solid lightgrey;
+}
+
+#snippets h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+#snippets p {
+  font-size: 16px;
+  margin-left: 15px;
+  line-height: 25px;
+}
+#snippets ul {
+  padding-left: 0;
+  margin-left: 15px;
+}
+#snippets li {
+  text-decoration: none;
+  font-size: 18px;
+  color: #77a466;
+  list-style-type: none;
+  line-height: 35px;
+}
+
+/***** FOOTER *****/
+footer {
+  text-align: center;
+  height: 100px;
+}
+footer .full-width {
+  height: 50px;
+  border-top: 2px solid lightgrey;
+}
+footer h3 {
+  text-transform: uppercase;
+}
+footer span {
+  color: #77a466;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  text-transform: lowercase;
+}
